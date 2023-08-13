@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "speech-to-text"
+version = "0.1.0"
+description = ""
+authors = ["Alexandr <gusicc@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "speech_to_text"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ffmpeg = "^1.4"
+pydub = "^0.25.1"
+vosk = "0.3.31"
+ffprobe = "^0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
